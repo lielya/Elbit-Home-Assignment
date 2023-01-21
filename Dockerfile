@@ -1,6 +1,6 @@
 FROM python:latest
 
-WORKDIR /home/user
+WORKDIR /home/jenkins
 COPY web_app.py ./
 RUN pip install flask docker
 
